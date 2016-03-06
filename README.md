@@ -1,0 +1,6 @@
+# CompSci2Project
+Project made in fall 2015
+This project was made to pull data from a MySQL database using JDBC about customers, airports, and the products and services bought by customers. These data were used to create an invoice system. Complications included special discounts for each type of customer, taxes and fees, a system for calculating the cost of a ticket based upon the GPS locations of the departing and arriving airports, and a need for a sorting method. 
+
+The Sorted List and Sorted List Node make up a self-sorting list of any kind of object and it can be sorted by any characteristic of the objects based on a comparator. At the bottom of the InvoiceReport class are 3 comparators for sorting invoices. Any time an object is added to the Sorted List, it is automatically sorted in via insertion sort. Insertion sort is used because it has O(n) efficiency for adding a new element into the list sorted, whereas some other sorting algorithms have worse efficiency for this task. Possible improvement could be made by using a binary search to find the location to insert the new element into the list, but that would require a data structure other than linked list, which would reduce the efficiency of the insert. It's a bit of a tradeoff.
+
