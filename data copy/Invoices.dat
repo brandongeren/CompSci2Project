@@ -1,0 +1,71 @@
+SELECT Persons.LastName, Persons.FirstName, Addresses.Street, Addresses.City, 
+States.StateName, Addresses.Zip, Countries.CountryName, 
+Persons.PhoneNo, Emails.Email 
+FROM Persons
+INNER JOIN Addresses ON Persons.AddressID = Addresses.AddressID
+INNER JOIN AddressStates 
+ON AddressStates.AddressID = Addresses.AddressID
+AND AddressStates.StateID = States.StateID
+INNER JOIN StateCountries ON StateCountries.StateID = States.StateID
+AND StateCountries.CountryID = Countries.CountryID
+INNER JOIN Emails ON Emails.PersonID = Persons.PersonID;
+
+2. INSERT INTO Emails VALUES (21, 8, 'holybob@gmail.com');
+
+
+3. UPDATE Addresses 
+SET Addresses.Street = '1501 N. Cherry St.', Addresses.City = 'Chico', 
+Addressess.Zip = '95928'
+ INNER JOIN Airports ON Airports.AddressID = Addresses.AddressID
+WHERE Airports.AirportID = '7';
+        
+4. DELETE FROM Airports WHERE AirportCode = 'OMA';
+
+5. SELECT Refreshments.RefreshmentName, Insurances.InsuranceName, SpecialAssistances.SpecialAssistanceType
+FROM Invoices
+INNER JOIN InvoiceProducts ON InvoiceProducts.InvoiceID = Invoices.InvoiceID
+INNER JOIN Refreshments ON Refreshments.ProductID = InvoiceProducts.ProductID
+INNER JOIN Insurances ON Insurances.ProductID = InvoiceProducts.ProductID
+INNER JOIN SpecialAssistances ON SpecialAssistances.ProductID = InvoiceProducts.ProductID
+HAVING  Invoices.InvoiceCode = 'INV001';
+
+6. SELECT Refreshments.RefreshmentName, Insurances.InsuranceName, SpecialAssistances.SpecialAssistanceType
+FROM Invoices
+INNER JOIN InvoiceProducts ON InvoiceProducts.InvoiceID = Invoices.InvoiceID
+INNER JOIN Refreshments ON Refreshments.ProductID = InvoiceProducts.ProductID
+INNER JOIN Insurances ON Insurances.ProductID = InvoiceProducts.ProductID
+INNER JOIN SpecialAssistances ON SpecialAssistances.ProductID = InvoiceProducts.ProductID
+INNER JOIN Customers ON Customers.CustomerID = Invoices.CustomerID
+HAVING Customers.CustomerCode = ''C001';
+
+7.  INSERT INTO Products (Products.ProductCode, Products.ProductType)
+VALUES ('c75y','SR')
+INNER JOIN InvoiceProducts ON InvoiceProducts.ProductID = Products.ProductID
+INNER JOIN InvoiceProducts ON InvoiceProducts.InvoiceID = Invoices.InvoiceID
+HAVING Invoices.InvoiceCode = 'INV002';
+
+8.  SELECT SUM(PointsPerMile) FROM AwardTickets;
+
+9.  SELECT SUM(AwardTickets.PointsPerMile) FROM AwardTickets
+INNER JOIN InvoiceProducts ON InvoiceProducts.ProductID = AwardTickets.ProductID
+INNER JOIN Invoices ON Invoices.InvoiceID = InvoiceProducts.InvoiceID
+HAVING Invoices.InvoiceDate = '09/14/2015';
+
+10.  
+
+11.  SELECT COUNT(Invoices.InvoiceCode), SUM(revenue?) FROM Invoices
+INNER JOIN Customers ON Customers.CustomerID = Invoices.CustomerID
+INNER JOIN Persons ON Persons.PersonID = Customers.PersonID
+INNER JOIN Airports ON Airports.AddressID = Persons.AddressID
+HAVING Airports.AirportCode = 'OMA';
+
+12.
+
+13.
+
+14.
+
+15.
+
+
+

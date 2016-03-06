@@ -1,0 +1,162 @@
+<airports>
+<airport>
+  <airportCode>SEA</airportCode>
+  <name> Seattle-Tacoma International</name>
+  <address>
+    <street> 17801 International Blvd</street>
+    <city> Seattle</city>
+    <state> WA</state>
+    <zip> 98158</zip>
+    <country> USA</country>
+  </address>
+  <coordinates>
+    <latitude>47.45</latitude>
+    <longitude>122.3</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>MSP</airportCode>
+  <name>Minneapolis Saint Paul International Airport</name>
+  <address>
+    <street>4300 Glumack Drive</street>
+    <city>St. Paul</city>
+    <state>MN</state>
+    <zip>55111</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>44.983333333333334</latitude>
+    <longitude>93.23333333333333</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>OMA</airportCode>
+  <name>Eppley Airfield</name>
+  <address>
+    <street>4501 Abbott Dr</street>
+    <city>Omaha</city>
+    <state>NE</state>
+    <zip>68110</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>40.7</latitude>
+    <longitude>74.0</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>BIS</airportCode>
+  <name>Bismarck Municipal</name>
+  <address>
+    <street>2301 University Dr</street>
+    <city> Bismarck</city>
+    <state> ND</state>
+    <zip> 58502</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>46.766666666666666</latitude>
+    <longitude>100.75</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>ATL</airportCode>
+  <name>Hartsfield Jackson Atlanta International Airport</name>
+  <address>
+    <street>6000 N Terminal Pkwy</street>
+    <city>Atlanta</city>
+    <state>GA</state>
+    <zip>30320</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>33.75</latitude>
+    <longitude>84.38333333333334</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>DFW</airportCode>
+  <name>Dallas/Fort Worth International Airport</name>
+  <address>
+    <street>International Pkwy</street>
+    <city>DFW Airport</city>
+    <state>TX</state>
+    <zip>75261</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>32.88333333333333</latitude>
+    <longitude>97.03333333333333</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>SFO</airportCode>
+  <name>San Francisco International Airport</name>
+  <address>
+    <street>780 S Airport Blvd</street>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <zip>94128</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>37.61666666666667</latitude>
+    <longitude>122.36666666666666</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>LGA</airportCode>
+  <name>LaGuardia Airport</name>
+  <address>
+    <street>94-00 Ditmars Blvd</street>
+    <city>Queens</city>
+    <state>NY</state>
+    <zip>11369</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>40.766666666666666</latitude>
+    <longitude>73.86666666666666</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>PHL</airportCode>
+  <name>Philadelphia International Airport</name>
+  <address>
+    <street>8000 Essington Ave</street>
+    <city>Philadelphia</city>
+    <state>PA</state>
+    <zip>19153</zip>
+    <country>USA</country>
+  </address>
+  <coordinates>
+    <latitude>39.86666666666667</latitude>
+    <longitude>75.23333333333333</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+<airport>
+  <airportCode>GFK</airportCode>
+  <name>Grand Forks International</name>
+  <address>
+    <street>2301 Airport Dr</street>
+    <city> Grand Forks</city>
+    <state> ND</state>
+    <zip> 58203</zip>
+    <country> USA</country>
+  </address>
+  <coordinates>
+    <latitude>47.93333333333333</latitude>
+    <longitude>97.16666666666667</longitude>
+  </coordinates>
+  <passengerFacilityFee>4.5</passengerFacilityFee>
+</airport>
+</airports>
